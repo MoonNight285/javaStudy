@@ -37,6 +37,7 @@ public class Task1 {
                     numberRange2 = 99;
                     count = 1;
                     targetNumber = (int)(Math.random() * 100);
+                    System.out.println("Up & Down 게임입니다. 숨겨진 수를 맞추어 보세요.");
                 }
             }
             else if (selectNumber > targetNumber) {
